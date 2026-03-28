@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Nest Refugee Home — welcoming refugee claimants with love and community in Owen Sound, Ontario. Providing transitional housing, friendship, and support." />
+  <title>The Nest Refugee Home</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Merriweather:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NOTICE BANNER ===== -->
+  <div class="notice-banner">
+    Questions? Email us at&nbsp;<a href="mailto:thenestrefugeehome@gmail.com">thenestrefugeehome@gmail.com</a>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo" aria-label="The Nest Refugee Home — home">
+        <div class="nav__logo-icon" aria-hidden="true">
+          <!-- House / roof SVG -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <polyline points="3 10 12 3 21 10" />
+            <rect x="5" y="10" width="14" height="11" rx="1" />
+            <rect x="9" y="15" width="6" height="6" />
+          </svg>
+        </div>
+        <div class="nav__logo-text">
+          <span>the nest</span>
+          <span>refugee home</span>
+        </div>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#help">Get Involved</a></li>
+        <li><a href="#contact" class="nav__cta">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home" aria-labelledby="hero-heading">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <span class="hero__tag">Owen Sound, Ontario</span>
+        <h1 id="hero-heading">A home for those<br /><em>starting over</em></h1>
+        <div class="hero__desc">
+          <p>The Nest Refugee Home welcomes refugee claimants with the love of God into our home, lives, and community — providing transitional housing, friendship, and connection to resources.</p>
+        </div>
+        <div class="hero__actions">
+          <a href="#help" class="btn btn--primary">Get Involved</a>
+          <a href="#about" class="btn btn--outline">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Logo box -->
+      <div class="hero__logo-box" aria-hidden="true">
+        <div class="hero__logo-fallback">
+          <div class="roof-icon">🏡</div>
+          <div class="logo-title">the</div>
+          <div class="logo-main">nest</div>
+          <div class="logo-sub">refugee home</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats" aria-label="Ministry statistics">
+    <div class="stats__grid">
+      <div class="stat">
+        <div class="stat__number">🏠</div>
+        <div class="stat__label">Transitional Housing</div>
+      </div>
+      <div class="stat">
+        <div class="stat__number">🤝</div>
+        <div class="stat__label">Community Support</div>
+      </div>
+      <div class="stat">
+        <div class="stat__number">🙏</div>
+        <div class="stat__label">Powered by Prayer</div>
+      </div>
+      <div class="stat">
+        <div class="stat__number">🇨🇦</div>
+        <div class="stat__label">New Lives in Canada</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <span class="section__label">Who We Are</span>
+          <h2 class="section__heading" id="about-heading">The Nest Refugee Home</h2>
+          <p>
+            We are a ministry of <strong>Owen Sound Alliance Church</strong> dedicated to welcoming refugee claimants
+            with the love of God into our home, lives, and community. We provide transitional housing and connection
+            to friendship, support, and resources within our community.
+          </p>
+          <p>
+            Through prayer, donations, and active involvement, the church creates a safe and welcoming environment
+            where newcomers are supported and able to access the resources they need. This ministry allows us,
+            the church, to extend practical care and community to those starting a new life in Canada.
+          </p>
+          <p>
+            The Nest is more than just a house — it is a place of belonging, hope, and new beginnings for people
+            who have journeyed far and need a community to call home.
+          </p>
+          <a href="#help" class="btn btn--green" style="margin-top:0.5rem;">Join Our Community</a>
+        </div>
+
+        <div class="about__image-wrap">
+          <div class="about__image-placeholder" aria-label="Community gathering at The Nest">
+            <span>🌿</span>
+            <span>Community &amp; Welcome</span>
+          </div>
+          <div class="about__badge">
+            <strong>Owen Sound</strong>
+            Alliance Church
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MISSION ===== -->
+  <section class="section section--alt" id="mission" aria-labelledby="mission-heading">
+    <div class="container">
+      <div style="text-align:center; max-width:640px; margin:0 auto 0.5rem;">
+        <span class="section__label">Our Mission</span>
+        <h2 class="section__heading" id="mission-heading">How We Serve Newcomers</h2>
+        <p class="section__intro" style="margin:0 auto;">
+          We believe every person deserves dignity, safety, and community. The Nest lives out this belief in four practical ways.
+        </p>
+      </div>
+
+      <div class="mission__cards">
+        <div class="mission-card">
+          <div class="mission-card__icon">🏡</div>
+          <h3>Transitional Housing</h3>
+          <p>We provide a safe, warm home for refugee claimants while they navigate their new life in Canada and work toward stable, long-term housing.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-card__icon">🤝</div>
+          <h3>Friendship &amp; Connection</h3>
+          <p>Newcomers are welcomed into the fabric of our community — sharing meals, friendships, and life alongside church families and neighbours.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-card__icon">📋</div>
+          <h3>Practical Support</h3>
+          <p>We connect residents with essential resources including legal aid referrals, employment support, language programs, and social services.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-card__icon">🙏</div>
+          <h3>Prayer &amp; Spiritual Care</h3>
+          <p>Prayer is the foundation of everything we do. We uphold our residents and volunteers in prayer, trusting God to guide each journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE ===== -->
+  <div class="quote-section" aria-label="Scripture quote">
+    <div class="container">
+      <blockquote>
+        "Share with the Lord's people who are in need. Practice hospitality."
+      </blockquote>
+      <cite>Romans 12:13</cite>
+    </div>
+  </div>
+
+  <!-- ===== HOW TO HELP ===== -->
+  <section class="section" id="help" aria-labelledby="help-heading">
+    <div class="container">
+      <span class="section__label">Get Involved</span>
+      <h2 class="section__heading" id="help-heading">Three Ways to Make a Difference</h2>
+      <p class="section__intro">
+        Whether you give financially, give your time, or lift us up in prayer — every act of support matters deeply.
+      </p>
+
+      <div class="help__grid">
+        <!-- Donate -->
+        <div class="help-card">
+          <div class="help-card__top">
+            <div class="help-card__icon">💛</div>
+            <h3>Donate</h3>
+          </div>
+          <div class="help-card__body">
+            <div>
+              <p>Your financial gift helps cover housing costs, household needs, transportation, and the everyday essentials that make a house feel like home.</p>
+              <p>All donations go directly to supporting the residents of The Nest and keeping this ministry running.</p>
+            </div>
+            <a href="mailto:thenestrefugeehome@gmail.com?subject=Donation%20Inquiry" class="btn btn--green" style="margin-top:1rem;">Donate Now</a>
+          </div>
+        </div>
+
+        <!-- Volunteer -->
+        <div class="help-card">
+          <div class="help-card__top alt">
+            <div class="help-card__icon">🙌</div>
+            <h3>Volunteer</h3>
+          </div>
+          <div class="help-card__body">
+            <div>
+              <p>We are always looking for warm, welcoming people to walk alongside our residents. Volunteering can look many different ways — you bring the heart, we'll find the fit.</p>
+            </div>
+            <a href="#contact" class="btn btn--ghost" style="margin-top:1rem;">Sign Up to Volunteer</a>
+          </div>
+        </div>
+
+        <!-- Pray -->
+        <div class="help-card">
+          <div class="help-card__top alt2">
+            <div class="help-card__icon">🕊️</div>
+            <h3>Pray</h3>
+          </div>
+          <div class="help-card__body">
+            <div>
+              <p>Consistent, faithful prayer is one of the most powerful ways you can support The Nest. Pray for our residents' safety, peace, legal processes, and sense of belonging.</p>
+              <p>Pray for our volunteers and for God's provision for this ministry.</p>
+            </div>
+            <a href="#contact" class="btn btn--ghost" style="margin-top:1rem;">Join Our Prayer List</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Volunteer needs -->
+      <div style="margin-top:3.5rem;">
+        <h3 style="color:var(--navy); margin-bottom:0.5rem;">Current Volunteer Needs</h3>
+        <p style="margin-bottom:0;">We are especially looking for people who can help with the following:</p>
+        <div class="needs__list">
+          <div class="need-item"><span class="need-item__dot"></span>Driving &amp; transportation</div>
+          <div class="need-item"><span class="need-item__dot"></span>English conversation practice</div>
+          <div class="need-item"><span class="need-item__dot"></span>Meal preparation &amp; delivery</div>
+          <div class="need-item"><span class="need-item__dot"></span>Household item donations</div>
+          <div class="need-item"><span class="need-item__dot"></span>Accompanying to appointments</div>
+          <div class="need-item"><span class="need-item__dot"></span>Friendship &amp; mentorship</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section--alt" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact__grid">
+        <!-- Info -->
+        <div>
+          <span class="section__label">Get In Touch</span>
+          <h2 class="section__heading" id="contact-heading">We'd Love to Hear From You</h2>
+          <p>Whether you are a refugee claimant looking for support, a community member wanting to help, or a church wanting to learn more about this ministry — please reach out.</p>
+
+          <div class="contact__item">
+            <span class="contact__item-icon" aria-hidden="true">✉️</span>
+            <div>
+              <div class="contact__item-label">Email</div>
+              <p class="contact__item-value"><a href="mailto:thenestrefugeehome@gmail.com">thenestrefugeehome@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__item-icon" aria-hidden="true">🏛️</span>
+            <div>
+              <div class="contact__item-label">Home Church</div>
+              <p class="contact__item-value">Owen Sound Alliance Church</p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__item-icon" aria-hidden="true">📞</span>
+            <div>
+              <div class="contact__item-label">Church Phone</div>
+              <p class="contact__item-value"><a href="tel:+15193762026">519-376-2026</a></p>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <span class="contact__item-icon" aria-hidden="true">📧</span>
+            <div>
+              <div class="contact__item-label">Church Email</div>
+              <p class="contact__item-value"><a href="mailto:office@alliancechurch.net">office@alliancechurch.net</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact__form">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="firstName" name="firstName" required placeholder="Jane" autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Smith" autocomplete="family-name" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="jane@example.com" autocomplete="email" />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">I'm interested in…</label>
+              <select id="subject" name="subject">
+                <option value="">Select an option</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="donate">Donating</option>
+                <option value="prayer">Joining the prayer list</option>
+                <option value="support">Seeking housing support</option>
+                <option value="info">General information</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" required placeholder="Tell us how you'd like to connect or how we can help…"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--green" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <div class="footer__logo-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polyline points="3 10 12 3 21 10" />
+                <rect x="5" y="10" width="14" height="11" rx="1" />
+                <rect x="9" y="15" width="6" height="6" />
+              </svg>
+            </div>
+            <span>The Nest Refugee Home</span>
+          </div>
+          <p>Welcoming newcomers with love, community, and practical support in Owen Sound, Ontario.</p>
+          <div class="footer__social" aria-label="Social media">
+            <!-- Facebook placeholder -->
+            <a href="#" aria-label="Facebook" title="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About The Nest</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#help">Get Involved</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:thenestrefugeehome@gmail.com">thenestrefugeehome@gmail.com</a></li>
+            <li><a href="tel:+15193762026">519-376-2026</a></li>
+            <li><a href="mailto:office@alliancechurch.net">office@alliancechurch.net</a></li>
+          </ul>
+          <p style="font-size:0.82rem; margin-top:1rem; color:rgba(255,255,255,0.35);">
+            A ministry of<br />Owen Sound Alliance Church
+          </p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> The Nest Refugee Home. All rights reserved.</p>
+        <p>Made with ❤️ for newcomers in Owen Sound</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    ✅ Message sent! We'll be in touch soon.
+  </div>
+
+  <!-- Scroll-to-top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top of page">&#8679;</button>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
