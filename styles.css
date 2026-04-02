@@ -472,6 +472,7 @@ p:last-child { margin-bottom: 0; }
   object-fit: cover;
   height: 380px;
 }
+}
 
 .about__image-placeholder {
   border-radius: var(--radius);
