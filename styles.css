@@ -254,7 +254,6 @@ p:last-child { margin-bottom: 0; }
 /* ===== HERO ===== */
 .hero {
   background:
-    linear-gradient(135deg, rgba(31,89,65,0.82) 0%, rgba(46,125,94,0.72) 60%, rgba(58,153,112,0.65) 100%),
     url("https://github.com/user-attachments/assets/68d0ba31-35e0-48c5-aeec-d7230370ccbf") center/cover no-repeat;
   color: var(--white);
   padding: 7rem 0 5rem;
