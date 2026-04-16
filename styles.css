@@ -441,42 +441,6 @@ p:last-child { margin-bottom: 0; }
   color: var(--white);
 }
 
-/* ===== STATS BAR ===== */
-.stats {
-  background: var(--navy);
-  padding: 2.5rem 0;
-}
-
-.stats__grid {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-  flex-wrap: wrap;
-}
-
-@media (max-width: 480px) {
-  .stats__grid { gap: 2rem; }
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat__number {
-  font-family: var(--font-heading);
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: var(--white);
-  line-height: 1;
-  margin-bottom: 0.35rem;
-}
-
-.stat__label {
-  font-size: 0.82rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.6);
-}
 
 /* ===== ABOUT ===== */
 .about__image-wrap {
