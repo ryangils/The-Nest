@@ -62,11 +62,37 @@ if (form) {
 
     if (!valid) return;
 
-    if (toast) {
-      toast.classList.add('show');
-      setTimeout(() => toast.classList.remove('show'), 4000);
-    }
-    form.reset();
+    // Submit to Formspree
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    })
+      .then(response => {
+        if (response.ok) {
+          if (toast) {
+            toast.textContent = '✅ Message sent! We\'ll be in touch soon.';
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 4000);
+          }
+          form.reset();
+        } else {
+          return response.json().then(data => {
+            const msg = data.errors ? data.errors.map(e => e.message).join(', ') : 'Something went wrong.';
+            throw new Error(msg);
+          });
+        }
+      })
+      .catch(_error => {
+        if (toast) {
+          toast.textContent = '❌ Failed to send. Please try again or email us directly.';
+          toast.classList.add('show');
+          setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => { toast.textContent = ''; }, 300);
+          }, 4000);
+        }
+      });
   });
 
   // Clear error styling on input
