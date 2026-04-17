@@ -196,6 +196,7 @@ p:last-child { margin-bottom: 0; }
 
 .nav__toggle {
   display: none;
+  flex-direction: column;
   background: none;
   border: none;
   cursor: pointer;
