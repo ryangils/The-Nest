@@ -953,6 +953,20 @@ p:last-child { margin-bottom: 0; }
 
 .footer__bottom p { color: rgba(255,255,255,0.4); margin: 0; }
 
+.footer__photo-credits {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.3);
+  text-align: center;
+}
+
+.footer__photo-credits a {
+  color: rgba(255,255,255,0.4);
+  transition: color 0.2s;
+}
+
+.footer__photo-credits a:hover { color: rgba(255,255,255,0.7); }
+
 .footer__bottom a {
   color: rgba(255,255,255,0.4);
   transition: color 0.2s;
