@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#2c3550"/>
+
+  <!-- Decorative green accent bar at top -->
+  <rect width="1200" height="8" fill="#2e7d5e"/>
+
+  <!-- Subtle cream panel -->
+  <rect x="80" y="80" width="1040" height="470" rx="16" fill="#1e2540" opacity="0.6"/>
+
+  <!-- House / Nest icon (scaled up, centered) -->
+  <g transform="translate(440, 150) scale(4.5)" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Roof -->
+    <polyline points="3 10 12 3 21 10"/>
+    <!-- Walls -->
+    <rect x="5" y="10" width="14" height="11" rx="1"/>
+    <!-- Door -->
+    <rect x="9" y="15" width="6" height="6"/>
+  </g>
+
+  <!-- "the nest" wordmark -->
+  <text x="600" y="335" font-family="Georgia, serif" font-size="88" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="4">the nest</text>
+
+  <!-- "refugee home" subtitle -->
+  <text x="600" y="400" font-family="Georgia, serif" font-size="40" font-weight="400" font-style="italic" fill="#a8c4b4" text-anchor="middle" letter-spacing="2">refugee home</text>
+
+  <!-- Divider -->
+  <line x1="460" y1="430" x2="740" y2="430" stroke="#2e7d5e" stroke-width="2"/>
+
+  <!-- Location -->
+  <text x="600" y="466" font-family="Arial, sans-serif" font-size="26" fill="#9ba8bf" text-anchor="middle" letter-spacing="3">OWEN SOUND, ONTARIO</text>
+
+  <!-- Decorative green accent bar at bottom -->
+  <rect y="622" width="1200" height="8" fill="#2e7d5e"/>
+</svg>
